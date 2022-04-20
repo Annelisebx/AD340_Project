@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">AnneliseWeek1</string>
+    <string name="app_name">Annelise 340 Project</string>
+    <string name="name_date">Blanchard, Annelise 4/19/2022</string>
+    <string name="your_name">What is your name?</string>
+    <string name="email">What is your email?</string>
+    <string name="username">Please create a username</string>
+    <string name="birthday">Select Birthdate</string>
+    <string name="button">Submit</string>
 </resources>
