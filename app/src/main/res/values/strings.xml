@@ -6,4 +6,8 @@
     <string name="username">Please create a username</string>
     <string name="birthday">Select Birthdate</string>
     <string name="button">Submit</string>
+    <string name="registered">Thanks for Signing up (insert username)!</string>
+    <string name="back_button">Go Back</string>
+    <string name="invalidInfoError">Please enter valid information</string>
+    <string name="emailError">Please enter valid email address</string>
 </resources>
