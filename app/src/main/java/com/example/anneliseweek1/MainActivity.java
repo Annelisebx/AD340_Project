@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         your_name = findViewById(R.id.your_name);
         your_email = findViewById(R.id.your_email);
         your_username = findViewById(R.id.your_username);
-        birthdayText = findViewById(R.id.birthdayText);
+        //irthdayText = findViewById(R.id.birthdayText);
     }
 
     public void onSubmit(View view) {
