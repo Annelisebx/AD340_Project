@@ -6,8 +6,10 @@
     <string name="username">Please create a username</string>
     <string name="birthday">Select Birthdate</string>
     <string name="button">Submit</string>
-    <string name="registered">Thanks for Signing up (insert username)!</string>
+    <string name="registered">Thanks for Signing up %1$s!</string>
     <string name="back_button">Go Back</string>
     <string name="invalidInfoError">Please enter valid information</string>
     <string name="emailError">Please enter valid email address</string>
+    <string name="ageError">Must be 18 years or older to create account!</string>
+    <string name="date">%1$d/%2$d/%3$d</string>
 </resources>
