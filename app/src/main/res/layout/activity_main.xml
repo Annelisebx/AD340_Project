@@ -7,25 +7,13 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editTextHello"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Hello World"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/editTextHello"/>
-
-    <EditText
         android:id="@+id/editTextName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:text="@string/name_date"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/editTextHello"/>
+        app:layout_constraintRight_toRightOf="parent"/>
 
     <EditText
         android:id="@+id/your_name"
@@ -58,7 +46,16 @@
         app:layout_constraintTop_toBottomOf="@id/your_username"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/birthdateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Birthdate"
+        android:onClick="selectBirthday"
+        app:layout_constraintTop_toBottomOf="@id/your_username"
+        app:layout_constraintLeft_toRightOf="@id/your_birthday"/>
+
+    <Button
+        android:id="@+id/submitButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button"
